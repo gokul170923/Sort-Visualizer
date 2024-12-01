@@ -1,0 +1,48 @@
+*{
+        padding: 0;
+        margin-top: 0;
+        box-sizing: border-box;
+        /* outline: 1px red solid; */
+        border-radius: 20px;
+}
+
+body{
+        overflow: hidden;
+        height: 100vh;
+        padding: 10px;
+}
+
+.header{
+        height: 18vh;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px;
+        padding-left: 160px;
+        padding-right: 200px;
+        border: 2px rgb(197, 36, 76) solid;
+}
+
+.childs{
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 10vh;
+}
+
+
+#algo{
+        width: 130px;
+}
+
+.buttons{
+        width: 120px;
+        height: 40px;
+}
+
+.main{
+        height: 77vh;
+        margin: 10px;
+        border: 2px rgb(197, 36, 76) solid;
+}
