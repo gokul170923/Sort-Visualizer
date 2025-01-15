@@ -1,33 +1,33 @@
 *{
         padding: 0;
-        margin-top: 0;
+        margin: 0;
         box-sizing: border-box;
-        /* outline: 1px red solid; */
         border-radius: 20px;
 }
 
 body{
-        overflow: hidden;
         height: 100vh;
         padding: 10px;
+        background-image: url(bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
 }
 
 .header{
-        height: 18vh;
+        
         display: flex;
         justify-content: space-evenly;
-        margin: 10px;
-        padding-left: 160px;
-        padding-right: 200px;
-        border: 2px rgb(197, 36, 76) solid;
+        flex-wrap: wrap;
+        margin: 50px 0;
+        border: 2px solid #edade1;
 }
 
 .childs{
-        margin: 50px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 300px;
         height: 10vh;
 }
 
@@ -39,10 +39,32 @@ body{
 .buttons{
         width: 120px;
         height: 40px;
+        background-color: #edade1;
+        border: 1px tra solid;
+}
+
+.slider{
+        -webkit-appearance: none; 
+        height: 8px;
+        background: #4caf50;
+}
+
+#algo{
+        border: 1px #edade1 solid;
 }
 
 .main{
-        height: 77vh;
-        margin: 10px;
-        border: 2px rgb(197, 36, 76) solid;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border: 2px solid #edade1;
 }
+
+.bars{
+        width: 20px;
+        border-radius: 0;
+        background-color: #edade1;
+        border: 1px black solid;
+        flex-grow:1;
+}
+
