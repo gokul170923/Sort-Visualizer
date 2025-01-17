@@ -11,9 +11,9 @@
                 <div class = "childs" ><button class="buttons">Generate random</button></div>
                 <div class = "childs" >
                         <select name="algo" id="algo">
-                                <option value="Bubble" selected>Bubble Sort</option>
-                                <option value="Selection">Selection Sort</option>
-                                <option value="Insertion">Insertion Sort</option>
+                                <option value="BubbleSort" selected>Bubble Sort</option>
+                                <option value="SelectionSort">Selection Sort</option>
+                                <option value="InsertionSort">Insertion Sort</option>
                         </select>
                 </div>
                 <div class = "childs" >
@@ -22,12 +22,14 @@
                 </div>
                 <div class = "childs" >
                         <p>Speed</p>
-                        <input type="range" name="speed" class="slider" min="0" max="100">
+                        <input type="range" name="speed" class="slider" min="100" max="1000">
                 </div>
                 <div class = "childs" ><button class="buttons">Start Sort</button></div>
         </div> 
         <div class="main">
         </div>
-        <script src="script.js"></script>
+        <script src="start.js"></script>
+        <script src="utility.js"></script>
+        <script src="algoLogic.js"></script>
 </body>
 </html>

@@ -20,7 +20,6 @@ body{
         justify-content: space-evenly;
         flex-wrap: wrap;
         margin: 50px 0;
-        border: 2px solid #edade1;
 }
 
 .childs{
@@ -31,10 +30,6 @@ body{
         height: 10vh;
 }
 
-
-#algo{
-        width: 130px;
-}
 
 .buttons{
         width: 120px;
@@ -50,6 +45,7 @@ body{
 }
 
 #algo{
+        width: 130px;
         border: 1px #edade1 solid;
 }
 
@@ -57,7 +53,6 @@ body{
         display: flex;
         justify-content: center;
         padding: 20px;
-        border: 2px solid #edade1;
 }
 
 .bars{
@@ -66,5 +61,6 @@ body{
         background-color: #edade1;
         border: 1px black solid;
         flex-grow:1;
+        border-radius: 100px;
 }
 

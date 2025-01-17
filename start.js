@@ -5,13 +5,14 @@ const SizeSlider = document.querySelector(".header .childs:nth-child(3) input");
 const SpeedSlider = document.querySelector(".header .childs:nth-child(4) input");
 const StartButton = document.querySelector(".header .childs:nth-child(5) .buttons");
 
+
+
 let array;
 
 function MakeBars(val){
         let div = document.createElement("div");
         div.className = "bars";
         div.style.height = `${val}px`;
-        console.log(val);
         MainBox.appendChild(div);
 }
 
@@ -24,5 +25,4 @@ GenerateButton.addEventListener("click",()=>{
                 array.push(height);
                 MakeBars(height); 
         }
-        console.log(array);
 });
